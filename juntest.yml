@@ -1,0 +1,8 @@
+name: juntest
+
+topology:
+  nodes:
+    vrouter:
+      kind: juniper_vjunosrouter
+      image: vrnetlab/juniper_vjunos-router:24.2R1-S2.5
+      startup-config: vjunos.cfg
